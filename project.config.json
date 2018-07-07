@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.1.1",
-	"appid": "touristappid",
-	"projectname": "Reader%26Movie",
+	"appid": "wx3f72cc44e472f056",
+	"projectname": "ReaderMovie",
 	"condition": {
 		"search": {
 			"current": -1,
