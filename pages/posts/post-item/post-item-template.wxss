@@ -1,3 +1,11 @@
+.post-container{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+
 .post-author-date{
   margin:10rpx 0 20rpx 10rpx;
 }

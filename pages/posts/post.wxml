@@ -17,6 +17,9 @@
     </swiper-item>
   </swiper>
   <block wx:for="{{postList}}" wx:key="{{index}}">
-    <template is="postItem" data="{{item}}"/>
+    <view catch:tap="onPOstDetail" data-postid="{{item.postId}}">
+      <template is="postItem" data="{{...item}}"/>
+      <!-- ...item->把item里的键值对展开，模板里就可以直接使用键名了 -->
+    </view>
   </block>
 </view>

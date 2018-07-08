@@ -13,4 +13,11 @@ Page({
     })
   },
 
+  //跳转到详情
+  onPOstDetail(ev){
+    let postId = ev.currentTarget.dataset.postid;
+    wx.navigateTo({
+      url: 'post-detail/post-detail?id=' + postId,
+    })
+  }
 })

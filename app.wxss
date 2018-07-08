@@ -1,8 +1,8 @@
 text{
   font-family:MicroSoft Yahei;
+  font-size: 26rpx;
 }
 
 page{
-  height: 100%;
-  background: #04B4AE;
+   height: 100%; 
 }
