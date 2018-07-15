@@ -1,0 +1,23 @@
+<import src='movie-list/movie-list-template.wxml' />
+<import src='movie-grid/movie-grid-template.wxml' />
+
+<view class='search'>
+  <icon class="search-icon" type='search' size='15' color='#bbb'></icon>
+  <input bindfocus="onBindFocus" bindinput="onBindInput" type='text' placeholder='我不是药神' placeholder-class='placeholder'></input>
+  <icon bind:tap="onSearchCancel" wx:if="{{searchPanelShow}}" class='search-cancel' type='cancel' size='25' color='#aaa'></icon>
+</view>
+<view class='movie-template-container' wx:if="{{moviesContainerShow}}">
+  <view class='movie-list-template'>
+    <template is='movieListTemplate' data='{{...inTheaters}}' />
+  </view>
+  <view class='movie-list-template'>
+    <template is='movieListTemplate' data='{{...comingSoon}}' />
+  </view>
+  <view class='movie-list-template'>
+    <template is='movieListTemplate' data='{{...top250}}' />
+  </view>
+</view>
+
+<view wx:if="{{searchPanelShow}}" class='search-panel'>
+  <template is="movieGridTemplate" data="{{...searchResult}}" />
+</view>

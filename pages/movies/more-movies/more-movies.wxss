@@ -1,0 +1,16 @@
+@import '../movie-grid/movie-grid-template.wxss';
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.loading{
+  position: absolute;
+  bottom: -65rpx;
+  left: 50%;
+  margin-left: -30rpx;
+  width: 60rpx;
+  height: 60rpx
+}

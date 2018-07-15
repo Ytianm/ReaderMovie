@@ -1,0 +1,7 @@
+<import src="../movie-grid/movie-grid-template.wxml" />
+<view class='wrapper'>
+  <view>
+    <template is="movieGridTemplate" data="{{movies}}" />
+  </view>
+  <image wx:if="{{loading}}" class='loading' src='/images/icon/loading1.gif'></image>
+</view>

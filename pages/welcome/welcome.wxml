@@ -2,6 +2,6 @@
   <image class='avatar' src='/images/avatar.png'></image>
   <text class='welcome'>Welcome</text>
   <view class='moto-container' bind:tap="onTap">
-    <text class='moto'>开启小程序之旅</text>
+    <text class='moto'>阅读·电影</text>
   </view>
 </view>

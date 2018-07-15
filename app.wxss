@@ -1,6 +1,7 @@
 text{
   font-family:MicroSoft Yahei;
   font-size: 26rpx;
+  color: #666
 }
 
 page{

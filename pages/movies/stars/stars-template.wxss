@@ -1,0 +1,19 @@
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  height: 20rpx;
+  line-height: 20rpx;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin-right: 24rpx;
+  height: 20rpx;
+}
+
+.stars image {
+  width: 20rpx;
+  height: 20rpx;
+  padding-left: 3rpx;
+}
